@@ -1,5 +1,5 @@
 # zyppmon
-##ZyPP monitor (monitoring tool for zypper)
+## ZyPP monitor (monitoring tool for zypper)
 
 It's available in docker hub:
 

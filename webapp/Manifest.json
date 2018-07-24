@@ -1,0 +1,34 @@
+{
+  "info" : 
+  {
+    "name" : "ZyPP monitor",
+
+    "summary" : "ZyPP monitor application",
+    "description" : "This application is made for Zypper monitoring.",
+    
+    "homepage" : "http://some.homepage.url/",
+
+    "license" : "SomeLicense",
+    "authors" : 
+    [
+      {
+        "name" : "Victor Zhestkov (vzhestkov)",
+        "email" : "vzhestkov@gmail.com"
+      }
+    ],
+
+    "version" : "master",
+    "qooxdoo-versions": ["5.0.2"]
+  },
+  
+  "provides" : 
+  {
+    "namespace"   : "zyppmon",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "application"
+  }
+}
+

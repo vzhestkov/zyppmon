@@ -1,0 +1,827 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: you@your.org\n"
+"POT-Creation-Date: 2017-06-04 17:31+0300\n"
+"PO-Revision-Date: 2017-06-04 17:31+0300\n"
+"Last-Translator: you <you@your.org>\n"
+"Language-Team: Team <yourteam@your.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: zyppmon/AnalizeWindow.js:5
+msgid "WINDOW_HDR_ANALIZE"
+msgstr "Анализ системы"
+
+#: zyppmon/AnalizeWindow.js:39
+msgid "ANALIZE_TOOLBAR_BTN_ANALIZE"
+msgstr "Анализировать"
+
+#: zyppmon/AnalizeWindow.js:47 zyppmon/PackagesWindow.js:109
+msgid "PACKAGES_TOOLBAR_BTN_COMPARE_HINT"
+msgstr "Сравнить системы..."
+
+#: zyppmon/AnalizeWindow.js:54
+msgid "ANALIZE_TBL_HDR_USID"
+msgstr "USID"
+
+#: zyppmon/AnalizeWindow.js:56
+msgid "ANALIZE_TBL_HDR_NAME"
+msgstr "Имя"
+
+#: zyppmon/AnalizeWindow.js:58
+msgid "ANALIZE_TBL_HDR_OS"
+msgstr "ОС"
+
+#: zyppmon/AnalizeWindow.js:60
+msgid "ANALIZE_TBL_HDR_VER"
+msgstr "Версия"
+
+#: zyppmon/AnalizeWindow.js:62
+msgid "ANALIZE_TBL_HDR_ARCH"
+msgstr "Арх."
+
+#: zyppmon/AnalizeWindow.js:64 zyppmon/AnalizeWindow.js:68
+msgid "ANALIZE_TBL_HDR_MATCH"
+msgstr "Совпадение"
+
+#: zyppmon/AnalizeWindow.js:66 zyppmon/AnalizeWindow.js:70
+msgid "ANALIZE_TBL_HDR_MATCH_VR"
+msgstr "Совпадение (В-Р)"
+
+#: zyppmon/AnalizeWindow.js:103
+msgid "WINDOW_HDR_ANALIZE_%1"
+msgstr "Анализ системы %1"
+
+#: zyppmon/AuthProvider.js:87
+msgid "AUTHPROV_REQ_ABORTED"
+msgstr "Аутентификация перервана."
+
+#: zyppmon/AuthProvider.js:91
+msgid "AUTHPROV_REQ_FAILED"
+msgstr "Сбой аутентификации из-за сбоя соединения."
+
+#: zyppmon/AuthProvider.js:95
+msgid "AUTHPROV_REQ_TIMEOUT"
+msgstr "Таймаут аутентификации."
+
+#: zyppmon/ChartWindow.js:5 zyppmon/ChartWindow.js:59
+msgid "WINDOW_HDR_HISTORY_CHART"
+msgstr "График истории"
+
+#: zyppmon/ChartWindow.js:23
+msgid "CHART_TBL_HDR_DATE"
+msgstr "Дата"
+
+#: zyppmon/ChartWindow.js:25
+msgid "CHART_TBL_HDR_INSTALLS"
+msgstr "Установок"
+
+#: zyppmon/ChartWindow.js:27
+msgid "CHART_TBL_HDR_UPDATES"
+msgstr "Обновлений"
+
+#: zyppmon/ChartWindow.js:29
+msgid "CHART_TBL_HDR_DOWNGRADES"
+msgstr "Понижений версий"
+
+#: zyppmon/ChartWindow.js:31
+msgid "CHART_TBL_HDR_REFRESHES"
+msgstr "Переустановок"
+
+#: zyppmon/ChartWindow.js:33
+msgid "CHART_TBL_HDR_REMOVES"
+msgstr "Удалений"
+
+#: zyppmon/ChartWindow.js:35
+msgid "CHART_TBL_HDR_TOTAL"
+msgstr "Всего"
+
+#: zyppmon/ChartWindow.js:126
+msgid "CHART_LABEL_INSTALLS"
+msgstr "установок"
+
+#: zyppmon/ChartWindow.js:133
+msgid "CHART_LABEL_UPDATES"
+msgstr "обновлений"
+
+#: zyppmon/ChartWindow.js:140
+msgid "CHART_LABEL_DOWNGRADES"
+msgstr "понижений версий"
+
+#: zyppmon/ChartWindow.js:147
+msgid "CHART_LABEL_REMOVES"
+msgstr "удалений"
+
+#: zyppmon/ChartWindow.js:154
+msgid "CHART_LABEL_REFRESHES"
+msgstr "переустановок"
+
+#: zyppmon/ChartWindow.js:198
+msgid "CHART_LABEL_YSCALE"
+msgstr "количество"
+
+#: zyppmon/CompareWindow.js:5
+msgid "WINDOW_HDR_COMPARE"
+msgstr "Сравнение систем"
+
+#: zyppmon/CompareWindow.js:39
+msgid "COMPARE_TOOLBAR_BTN_COMPARE"
+msgstr "Сравнить"
+
+#: zyppmon/CompareWindow.js:59
+msgid "COMPARE_CHKBOX_DIFFONLY"
+msgstr "Показать разницу"
+
+#: zyppmon/CompareWindow.js:63
+msgid "COMPARE_CHKBOX_INSTALLED"
+msgstr "Установленные"
+
+#: zyppmon/CompareWindow.js:75
+msgid "COMPARE_TBL_INFO_HDR_PROP"
+msgstr "Свойство"
+
+#: zyppmon/CompareWindow.js:77
+msgid "COMPARE_TBL_INFO_HDR_SYS1"
+msgstr "Система #1"
+
+#: zyppmon/CompareWindow.js:79
+msgid "COMPARE_TBL_INFO_HDR_SYS2"
+msgstr "Система #2"
+
+#: zyppmon/CompareWindow.js:81
+msgid "COMPARE_TBL_INFO_HDR_EQ"
+msgstr "EQ"
+
+#: zyppmon/CompareWindow.js:91
+msgid "COMPARE_TBL_PKGS_HDR_NAME"
+msgstr "Имя"
+
+#: zyppmon/CompareWindow.js:93
+msgid "COMPARE_TBL_PKGS_HDR_ARCH"
+msgstr "Архитектура"
+
+#: zyppmon/CompareWindow.js:95
+msgid "COMPARE_TBL_PKGS_HDR_VR1"
+msgstr "Версия-Релиз #1"
+
+#: zyppmon/CompareWindow.js:97
+msgid "COMPARE_TBL_PKGS_HDR_VRC"
+msgstr "<=>"
+
+#: zyppmon/CompareWindow.js:99
+msgid "COMPARE_TBL_PKGS_HDR_VR2"
+msgstr "Версия-Релиз #2"
+
+#: zyppmon/CompareWindow.js:135
+msgid "WINDOW_HDR_COMPARE_%1_%2"
+msgstr "Сравнение систем: %1 <=> %2"
+
+#: zyppmon/CompareWindow.js:230
+msgid "COMPARE_TBL_LBL_PSTAT_COUNT"
+msgstr "Количество пакетов:"
+
+#: zyppmon/CompareWindow.js:231
+msgid "COMPARE_TBL_LBL_PSTAT_EQPKT"
+msgstr "Пакетов совпадает:"
+
+#: zyppmon/CompareWindow.js:232
+msgid "COMPARE_TBL_LBL_PSTAT_EQPPRC"
+msgstr "Пакетов совпадает(%):"
+
+#: zyppmon/CompareWindow.js:233
+msgid "COMPARE_TBL_LBL_PSTAT_EQ"
+msgstr "Версии совпадает:"
+
+#: zyppmon/CompareWindow.js:234
+msgid "COMPARE_TBL_LBL_PSTAT_EQPRC"
+msgstr "Версий совпадает(%):"
+
+#: zyppmon/CompareWindow.js:236
+msgid "COMPARE_TBL_LBL_PSTAT_NEWER"
+msgstr "Пакетов новее:"
+
+#: zyppmon/CompareWindow.js:237
+msgid "COMPARE_TBL_LBL_PSTAT_NWPRC"
+msgstr "Пакетов новее(%):"
+
+#: zyppmon/CompareWindow.js:238
+msgid "COMPARE_TBL_LBL_PSTAT_NOTPRESENT"
+msgstr "Пакетов отсутствует:"
+
+#: zyppmon/DashWindow.js:5
+msgid "WINDOW_HDR_DASHBOARD"
+msgstr "Информация"
+
+#: zyppmon/DashWindow.js:28
+msgid "DASH_TOOLBAR_BTN_SETTINGS_HINT"
+msgstr "Настройки"
+
+#: zyppmon/DashWindow.js:35
+msgid "DASH_TOOLBAR_BTN_LOGOUT_HINT"
+msgstr "Выход"
+
+#: zyppmon/DashWindow.js:64
+msgid "DASH_TBL_HDR_LABEL"
+msgstr "Метка"
+
+#: zyppmon/DashWindow.js:64
+msgid "DASH_TBL_HDR_VALUE"
+msgstr "Значение"
+
+#: zyppmon/DashWindow.js:166
+msgid "DASH_LBL_TOTAL"
+msgstr "Всего пакетов:"
+
+#: zyppmon/DashWindow.js:167
+msgid "DASH_LBL_INSTALLED"
+msgstr "Установлено пакетов:"
+
+#: zyppmon/DashWindow.js:168
+msgid "DASH_LBL_REMOVED"
+msgstr "Удалено пакетов:"
+
+#: zyppmon/DashWindow.js:169
+msgid "DASH_LBL_HISTORY_COUNT"
+msgstr "Записей в истории:"
+
+#: zyppmon/DashWindow.js:170
+msgid "DASH_LBL_HISTORY_INSTALLS"
+msgstr "Установок:"
+
+#: zyppmon/DashWindow.js:171
+msgid "DASH_LBL_HISTORY_REMOVES"
+msgstr "Удалений:"
+
+#: zyppmon/DashWindow.js:172
+msgid "DASH_LBL_HISTORY_UPGRADES"
+msgstr "Обновлений:"
+
+#: zyppmon/DashWindow.js:173
+msgid "DASH_LBL_HISTORY_DOWNGRADES"
+msgstr "Понижений версий:"
+
+#: zyppmon/DashWindow.js:174
+msgid "DASH_LBL_HISTORY_REFRESHES"
+msgstr "Переустановок:"
+
+#: zyppmon/DashWindow.js:175
+msgid "DASH_LBL_STATUS"
+msgstr "Статус:"
+
+#: zyppmon/HistoryWindow.js:6
+msgid "WINDOW_HDR_HISTORY"
+msgstr "История изменений"
+
+#: zyppmon/HistoryWindow.js:33
+msgid "HISTORY_TOOLBAR_SLCT_ARCH_ALL"
+msgstr "Все"
+
+#: zyppmon/HistoryWindow.js:73
+msgid "HISTORY_TOOLBAR_BTN_CLEARFILTER"
+msgstr "Очистить фильтр"
+
+#: zyppmon/HistoryWindow.js:83
+msgid "HISTORY_TOOLBAR_BTN_CHART_HINT"
+msgstr "История на графике"
+
+#: zyppmon/HistoryWindow.js:90
+msgid "HISTORY_TOOLBAR_BTN_RELOAD"
+msgstr "Перезагрузить"
+
+#: zyppmon/HistoryWindow.js:103
+msgid "HISTORY_TBL_HDR_INDEX"
+msgstr "#"
+
+#: zyppmon/HistoryWindow.js:105
+msgid "HISTORY_TBL_HDR_TIME"
+msgstr "Время"
+
+#: zyppmon/HistoryWindow.js:107
+msgid "HISTORY_TBL_HDR_BATCH"
+msgstr "# серии"
+
+#: zyppmon/HistoryWindow.js:109
+msgid "HISTORY_TBL_HDR_NAME"
+msgstr "Имя"
+
+#: zyppmon/HistoryWindow.js:111
+msgid "HISTORY_TBL_HDR_VER_REL"
+msgstr "Версия-Выпуск"
+
+#: zyppmon/HistoryWindow.js:113
+msgid "HISTORY_TBL_HDR_ARCH"
+msgstr "Архитектура"
+
+#: zyppmon/HistoryWindow.js:115
+msgid "HISTORY_TBL_HDR_ACTION"
+msgstr "Действие"
+
+#: zyppmon/HistoryWindow.js:117
+msgid "HISTORY_TBL_HDR_VERSION"
+msgstr "Версия"
+
+#: zyppmon/HistoryWindow.js:119
+msgid "HISTORY_TBL_HDR_RELEASE"
+msgstr "Выпуск"
+
+#: zyppmon/HistoryWindow.js:121
+msgid "HISTORY_TBL_HDR_PRE_VERSION"
+msgstr "Пред.Версия"
+
+#: zyppmon/HistoryWindow.js:123
+msgid "HISTORY_TBL_HDR_PRE_RELEASE"
+msgstr "Пред.Выпуск"
+
+#: zyppmon/HistoryWindow.js:125
+msgid "HISTORY_TBL_HDR_ACTION_CODE"
+msgstr "Код действия"
+
+#: zyppmon/HistoryWindow.js:127
+msgid "HISTORY_TBL_HDR_REPO_NAME"
+msgstr "Репозиторий"
+
+#: zyppmon/HistoryWindow.js:129
+msgid "HISTORY_TBL_HDR_REPO_ALIAS"
+msgstr "Псевдоним репозитория"
+
+#: zyppmon/HistoryWindow.js:131
+msgid "HISTORY_TBL_HDR_INSTD"
+msgstr "Установлен"
+
+#: zyppmon/HistoryWindow.js:161
+msgid "HISTORY_TOOLBAR_SLCT_ACT_ALL"
+msgstr "Все"
+
+#: zyppmon/HistoryWindow.js:162
+msgid "HISTORY_TOOLBAR_SLCT_ACT_INSTALL"
+msgstr "Установки"
+
+#: zyppmon/HistoryWindow.js:163
+msgid "HISTORY_TOOLBAR_SLCT_ACT_UPGRADE"
+msgstr "Обновления"
+
+#: zyppmon/HistoryWindow.js:164
+msgid "HISTORY_TOOLBAR_SLCT_ACT_DOWNGRADE"
+msgstr "Понижение версий"
+
+#: zyppmon/HistoryWindow.js:165
+msgid "HISTORY_TOOLBAR_SLCT_ACT_REMOVE"
+msgstr "Удаления"
+
+#: zyppmon/HistoryWindow.js:166
+msgid "HISTORY_TOOLBAR_SLCT_ACT_REFRESH"
+msgstr "Переустановки"
+
+#: zyppmon/InfoWindow.js:5 zyppmon/InfoWindow.js:45
+msgid "WINDOW_HDR_INFO"
+msgstr "Информация о системе"
+
+#: zyppmon/InfoWindow.js:33
+msgid "INFO_TBL_HDR_LABEL"
+msgstr "Имя"
+
+#: zyppmon/InfoWindow.js:35
+msgid "INFO_TBL_HDR_VALUE"
+msgstr "Значение"
+
+#: zyppmon/InfoWindow.js:72
+msgid "INFO_LBL_NAME"
+msgstr "Имя"
+
+#: zyppmon/InfoWindow.js:73
+msgid "INFO_LBL_VERSION"
+msgstr "Версия"
+
+#: zyppmon/InfoWindow.js:74
+msgid "INFO_LBL_VERSION_ID"
+msgstr "ID версии"
+
+#: zyppmon/InfoWindow.js:75
+msgid "INFO_LBL_PRETTY_NAME"
+msgstr "Полное имя"
+
+#: zyppmon/InfoWindow.js:76
+msgid "INFO_LBL_SUSE_NAME"
+msgstr "Имя SUSE"
+
+#: zyppmon/InfoWindow.js:77
+msgid "INFO_LBL_SUSE_VERSION"
+msgstr "Версия SUSE"
+
+#: zyppmon/InfoWindow.js:78
+msgid "INFO_LBL_SUSE_PATCHLEVEL"
+msgstr "Номер патча SUSE"
+
+#: zyppmon/InfoWindow.js:79
+msgid "INFO_LBL_SUSE_CODENAME"
+msgstr "Кодовое имя SUSE"
+
+#: zyppmon/InfoWindow.js:80
+msgid "INFO_LBL_NOVELL_NAME"
+msgstr "Имя Novell"
+
+#: zyppmon/InfoWindow.js:81
+msgid "INFO_LBL_NOVELL_VERSION"
+msgstr "Версия Novell"
+
+#: zyppmon/InfoWindow.js:82
+msgid "INFO_LBL_NOVELL_PATCHLEVEL"
+msgstr "Номер патча Novell"
+
+#: zyppmon/InfoWindow.js:83
+msgid "INFO_LBL_CPE_NAME"
+msgstr "Имя CPE"
+
+#: zyppmon/InfoWindow.js:84
+msgid "INFO_LBL_ID"
+msgstr "ID"
+
+#: zyppmon/InfoWindow.js:85
+msgid "INFO_LBL_ID_LIKE"
+msgstr "Подобие ID"
+
+#: zyppmon/InfoWindow.js:86
+msgid "INFO_LBL_HOME_URL"
+msgstr "Домашний URL"
+
+#: zyppmon/InfoWindow.js:87
+msgid "INFO_LBL_BUG_REPORT_URL"
+msgstr "URL для сообщений об ошибках"
+
+#: zyppmon/InfoWindow.js:88
+msgid "INFO_LBL_ANSI_COLOR"
+msgstr "Цвет ANSI"
+
+#: zyppmon/InfoWindow.js:89
+msgid "INFO_LBL_ENV_HOST"
+msgstr "Хост"
+
+#: zyppmon/InfoWindow.js:90
+msgid "INFO_LBL_ENV_HOSTNAME"
+msgstr "Имя хоста"
+
+#: zyppmon/InfoWindow.js:91
+msgid "INFO_LBL_ENV_CPU"
+msgstr "ЦПУ"
+
+#: zyppmon/InfoWindow.js:92
+msgid "INFO_LBL_ENV_HOSTTYPE"
+msgstr "Тип хоста"
+
+#: zyppmon/InfoWindow.js:93
+msgid "INFO_LBL_ENV_MACHTYPE"
+msgstr "Тип машины"
+
+#: zyppmon/InfoWindow.js:94
+msgid "INFO_LBL_ENV_OSTYPE"
+msgstr "Тип ОС"
+
+#: zyppmon/InfoWindow.js:95
+msgid "INFO_LBL_LSB_DISTRIB_ID"
+msgstr "ID дистрибутива LSB"
+
+#: zyppmon/InfoWindow.js:96
+msgid "INFO_LBL_LSB_DISTRIB_RELEASE"
+msgstr "Релиз дистрибутива LSB"
+
+#: zyppmon/InfoWindow.js:97
+msgid "INFO_LBL_LSB_DISTRIB_CODENAME"
+msgstr "Кодовое имя дистрибутива LSB"
+
+#: zyppmon/InfoWindow.js:98
+msgid "INFO_LBL_LSB_DISTRIB_DESCRIPTION"
+msgstr "Описание дистрибутива LSB"
+
+#: zyppmon/InfoWindow.js:99
+msgid "INFO_LBL_LSB_VERSION"
+msgstr "Версия LSB"
+
+#: zyppmon/LoginWindow.js:5
+msgid "WINDOW_HDR_LOGIN"
+msgstr "ZyPP Monitor"
+
+#: zyppmon/LoginWindow.js:7
+msgid "ZYPPMON_ERR_AUTH_ERROR"
+msgstr "Неверно указан пользователь или пароль!"
+
+#: zyppmon/LoginWindow.js:30
+msgid "LOGIN_FORM_NAME"
+msgstr "Логин:"
+
+#: zyppmon/LoginWindow.js:40
+msgid "LOGIN_FORM_PASSWORD"
+msgstr "Пароль:"
+
+#: zyppmon/LoginWindow.js:50
+msgid "LOGIN_FORM_SYSTEM"
+msgstr "Система:"
+
+#: zyppmon/LoginWindow.js:53
+msgid "LOGIN_FORM_LANG"
+msgstr "Язык:"
+
+#: zyppmon/SettingsWindow.js:84 zyppmon/LoginWindow.js:58
+msgid "LANG_EN"
+msgstr "English - Английский"
+
+#: zyppmon/SettingsWindow.js:84 zyppmon/LoginWindow.js:58
+msgid "LANG_RU"
+msgstr "Russian - Русский"
+
+#: zyppmon/LoginWindow.js:83
+msgid "LOGIN_FORM_BTN_LOGIN"
+msgstr "Войти"
+
+#: zyppmon/LoginWindow.js:88
+msgid "LOGIN_FORM_BTN_CANCEL"
+msgstr "Отмена"
+
+#: zyppmon/PackagesWindow.js:6
+msgid "WINDOW_HDR_PACKAGES"
+msgstr "Пакеты"
+
+#: zyppmon/PackagesWindow.js:26
+msgid "PACKAGES_TOOLBAR_SLCT_ARCH_ALL"
+msgstr "Все"
+
+#: zyppmon/PackagesWindow.js:44
+msgid "PACKAGES_TOOLBAR_RSLCT_INSTALLED"
+msgstr "Установленные"
+
+#: zyppmon/PackagesWindow.js:45
+msgid "PACKAGES_TOOLBAR_RSLCT_ALL"
+msgstr "Все"
+
+#: zyppmon/PackagesWindow.js:45
+msgid "PACKAGES_TOOLBAR_RSLCT_REMOVED"
+msgstr "Удаленные"
+
+#: zyppmon/PackagesWindow.js:71
+msgid "PACKAGES_TOOLBAR_BTN_CLEARFILTER"
+msgstr "Очистить фильтр"
+
+#: zyppmon/PackagesWindow.js:101
+msgid "PACKAGES_TOOLBAR_BTN_INFO_HINT"
+msgstr "Информация о системе"
+
+#: zyppmon/PackagesWindow.js:105
+msgid "PACKAGES_TOOLBAR_BTN_ANALIZE_HINT"
+msgstr "Проанализировать систему..."
+
+#: zyppmon/PackagesWindow.js:111
+msgid "PACKAGES_TOOLBAR_BTN_RELOAD"
+msgstr "Перезагрузить"
+
+#: zyppmon/PackagesWindow.js:123
+msgid "PACKAGES_TBL_HDR_NAME"
+msgstr "Имя"
+
+#: zyppmon/PackagesWindow.js:125
+msgid "PACKAGES_TBL_HDR_VER_REL"
+msgstr "Версия-Выпуск"
+
+#: zyppmon/PackagesWindow.js:127
+msgid "PACKAGES_TBL_HDR_VERSION"
+msgstr "Версия"
+
+#: zyppmon/PackagesWindow.js:129
+msgid "PACKAGES_TBL_HDR_RELEASE"
+msgstr "Выпуск"
+
+#: zyppmon/PackagesWindow.js:131
+msgid "PACKAGES_TBL_HDR_ARCH"
+msgstr "Архитектура"
+
+#: zyppmon/PackagesWindow.js:133
+msgid "PACKAGES_TBL_HDR_INSTALL_TM"
+msgstr "Время установки"
+
+#: zyppmon/PackagesWindow.js:135
+msgid "PACKAGES_TBL_HDR_VENDOR"
+msgstr "Поставщик"
+
+#: zyppmon/PackagesWindow.js:137
+msgid "PACKAGES_TBL_HDR_REPO_NAME"
+msgstr "Репозиторий"
+
+#: zyppmon/PackagesWindow.js:139
+msgid "PACKAGES_TBL_HDR_REPO_ALIAS"
+msgstr "Псевдоним репозитория"
+
+#: zyppmon/PackagesWindow.js:141
+msgid "PACKAGES_TBL_HDR_DISTR"
+msgstr "Поставка"
+
+#: zyppmon/PackagesWindow.js:143
+msgid "PACKAGES_TBL_HDR_MODIFIES"
+msgstr "Кол-во изменений"
+
+#: zyppmon/PackagesWindow.js:145
+msgid "PACKAGES_TBL_HDR_REMOVED"
+msgstr "Удален"
+
+#: zyppmon/PackagesWindow.js:146
+msgid "PACKAGES_TBL_HDR_FINSTTME"
+msgstr "Время первой установки"
+
+#: zyppmon/SettingsWindow.js:5
+msgid "WINDOW_HDR_SETTINGS"
+msgstr "Настройки"
+
+#: zyppmon/SettingsWindow.js:23
+msgid "SETTINGS_TAB_SOURCES"
+msgstr "Источники"
+
+#: zyppmon/SettingsWindow.js:29
+msgid "SETTINGS_SRC_TABLE_HDR_USID"
+msgstr "USID"
+
+#: zyppmon/SettingsWindow.js:31
+msgid "SETTINGS_SRC_TABLE_HDR_NAME"
+msgstr "Имя"
+
+#: zyppmon/SettingsWindow.js:33
+msgid "SETTINGS_SRC_TABLE_HDR_TYPE"
+msgstr "Тип"
+
+#: zyppmon/SettingsWindow.js:35
+msgid "SETTINGS_SRC_TABLE_HDR_ENABLED"
+msgstr "Включен"
+
+#: zyppmon/SettingsWindow.js:38
+msgid "SETTINGS_SRC_TABLE_HDR_SSTATUS"
+msgstr "Статус"
+
+#: zyppmon/SettingsWindow.js:40
+msgid "SETTINGS_SRC_TABLE_HDR_STATUS"
+msgstr "Статус (числ.)"
+
+#: zyppmon/SettingsWindow.js:59
+msgid "SETTINGS_BTN_SRC_SNAPSHOT"
+msgstr "Создать снапшот"
+
+#: zyppmon/SettingsWindow.js:63
+msgid "SETTINGS_BTN_CR_TEMPLATE"
+msgstr "Создать шаблон"
+
+#: zyppmon/SettingsWindow.js:68
+msgid "SETTINGS_BTN_SRC_ADD"
+msgstr "Добавить"
+
+#: zyppmon/SettingsWindow.js:71
+msgid "SETTINGS_BTN_SRC_REMOVE"
+msgstr "Удалить"
+
+#: zyppmon/SettingsWindow.js:77
+msgid "SETTINGS_TAB_INTERFACE"
+msgstr "Интерфейс"
+
+#: zyppmon/SettingsWindow.js:79
+msgid "SETTINGS_LBL_LANG"
+msgstr "Язык:"
+
+#: zyppmon/SettingsWindow.js:99
+msgid "SETTINGS_LBL_THEME"
+msgstr "Тема оформления:"
+
+#: zyppmon/SettingsWindow.js:106
+msgid "SETTINGS_THEME_DARK"
+msgstr "Темная"
+
+#: zyppmon/SettingsWindow.js:106
+msgid "SETTINGS_THEME_LIGHT"
+msgstr "Светлая"
+
+#: zyppmon/SettingsWindow.js:126
+msgid "SETTINGS_BTN_SAVE"
+msgstr "Сохранить"
+
+#: zyppmon/SettingsWindow.js:129
+msgid "SETTINGS_BTN_CANCEL"
+msgstr "Отмена"
+
+#: zyppmon/SettingsWindow.js:172
+msgid "SETTINGS_POPUP_SRC_NAME_PH"
+msgstr "имя источника (обязательно)"
+
+#: zyppmon/SettingsWindow.js:174
+msgid "SETTINGS_POPUP_SRC_TYPE_HOST"
+msgstr "Хост"
+
+#: zyppmon/SettingsWindow.js:176
+msgid "SETTINGS_POPUP_SRC_TYPE_FILE"
+msgstr "Файл"
+
+#: zyppmon/SettingsWindow.js:181 zyppmon/SettingsWindow.js:294
+msgid "SETTINGS_POPUP_SRC_HOST"
+msgstr "Хост"
+
+#: zyppmon/SettingsWindow.js:187
+msgid "SETTINGS_POPUP_SRC_FILE"
+msgstr "Файл"
+
+#: zyppmon/SettingsWindow.js:195
+msgid "SETTINGS_POPUP_SRC_HOST_PH"
+msgstr "хост[:порт]"
+
+#: zyppmon/SettingsWindow.js:221
+msgid "SETTINGS_POPUP_SRC_FILE_FIELD"
+msgstr "Выбрать файл"
+
+#: zyppmon/SettingsWindow.js:222
+msgid "SETTINGS_POPUP_SRC_FILE_PH"
+msgstr "supportconfig или rpm.txt"
+
+#: zyppmon/SettingsWindow.js:235
+msgid "SETTINGS_POPUP_BTN_ADD"
+msgstr "Добавить"
+
+#: zyppmon/SettingsWindow.js:242
+msgid "SETTINGS_POPUP_ALERT_NO_NAME"
+msgstr "Необходимо задать имя источника!"
+
+#: zyppmon/SettingsWindow.js:249
+msgid "SETTINGS_POPUP_ALERT_NAME_EXISTS"
+msgstr ""
+"Указанное вами имя уже используется.\n"
+"Допускается иметь несколько систем с одним именем, но это может привести к проблемам с выбором системы.\n"
+"Вы действительно хотите продолжить?"
+
+#: zyppmon/SettingsWindow.js:258
+msgid "SETTINGS_POPUP_ALERT_NO_HOST"
+msgstr "Хост должен быть задан для создания источника типа хост!"
+
+#: zyppmon/SettingsWindow.js:279
+msgid "SETTINGS_POPUP_BTN_CANCEL"
+msgstr "Отмена"
+
+#: zyppmon/SettingsWindow.js:288
+msgid "SETTINGS_POPUP_HEADER"
+msgstr "Новый источник"
+
+#: zyppmon/SettingsWindow.js:290
+msgid "SETTINGS_POPUP_SRC_NAME"
+msgstr "Имя"
+
+#: zyppmon/SettingsWindow.js:292
+msgid "SETTINGS_POPUP_SRC_TYPE"
+msgstr "Тип"
+
+#: zyppmon/System.js:6
+msgid "ZYPPMON_SYSTEM_STATUS_OK"
+msgstr "ок"
+
+#: zyppmon/System.js:7
+msgid "ZYPPMON_SYSTEM_STATUS_CHEKING"
+msgstr "проверка"
+
+#: zyppmon/System.js:8
+msgid "ZYPPMON_SYSTEM_STATUS_PENDING"
+msgstr "в ожидании"
+
+#: zyppmon/System.js:9
+msgid "ZYPPMON_SYSTEM_STATUS_IMPORTED"
+msgstr "импортирована"
+
+#: zyppmon/System.js:10
+msgid "ZYPPMON_SYSTEM_STATUS_ONLINE"
+msgstr "доступна"
+
+#: zyppmon/System.js:11
+msgid "ZYPPMON_SYSTEM_STATUS_OFFLINE"
+msgstr "недоступна"
+
+#: zyppmon/System.js:12
+msgid "ZYPPMON_SYSTEM_STATUS_REMOVED"
+msgstr "удалена"
+
+#: zyppmon/System.js:13
+msgid "ZYPPMON_SYSTEM_STATUS_ERROR"
+msgstr "ошибка"
+
+#: zyppmon/System.js:14
+msgid "ZYPPMON_SYSTEM_STATUS_AUTHREQ"
+msgstr "тр. авториз."
+
+#: zyppmon/table/ZyppmonTable.js:43
+msgid "ZMTABLE_CMENU_COPY_VALUE"
+msgstr "Копировать значение"
+
+#: zyppmon/table/ZyppmonTable.js:45
+msgid "ZMTABLE_CMENU_COPY_ROWS"
+msgstr "Копировать стркоки"
+
+#: zyppmon/table/ZyppmonTable.js:74
+msgid "ZMTABLE_STATUS_%1_%2"
+msgstr "Всего: %1 | Выбрано: %2"
+
+#: zyppmon/table/ZyppmonTable.js:76
+msgid "ZMTABLE_STATUS_FILTERED_%1_%2_%3"
+msgstr "Всего: %1 | Отображено: %2 | Выбрано: %3 (фильтр применен)"
+
+#: zyppmon/table/ZyppmonTable.js:144
+msgid "ZMTABLE_LOADING_%1_%2_%3"
+msgstr "Загрузка... | %1 из %2 | %3"

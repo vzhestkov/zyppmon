@@ -56,6 +56,7 @@ my @tests = (
 			if ( $flags =~ /[S5]/ ) {
 				my $md = (stat($file))[2];
 				if ( $md & 0111 ) {
+					chmod(0400, $file);
 					${$ao} = sprintf("WARNING!!!: Executable file was changed: %s\n", $file) if defined $ao;
 					return 1;
 				}

@@ -14,7 +14,7 @@ And sample systems data could be found in data container (it contains MongoDB sa
 https://hub.docker.com/r/vzhestkov/zyppmon_sample/
 
 ### How to get the whole system up and running with docker-compose:
-Just download **docker-compose.yml** and execute the following from the directory containing this file:
+Just download **docker-compose.yml** and execute the following command from the directory containing this file:
 ```
 docker-compose up
 ```
@@ -42,3 +42,10 @@ The sample container contains user test with password test inside the MongoDB.
 ## mkzyppdump.sh
 **mkzyppdump.sh** is a shell script to gather information about installed packages and zypper history from the system to be loaded to ZyPP monitor.
 It creates an archive containing the data required for ZyPP monitor on run with name zyppmon_HOSTNAME_YYYYMMDD_HHMMSS_MD5SECONDHALF.tbz
+
+## Screenshots
+![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/login.png)
+![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/main.png)
+![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/chart.png)
+![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/compare.png)
+![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/analize.png)

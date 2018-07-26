@@ -13,8 +13,13 @@ And sample systems data could be found in data container (it contains MongoDB sa
 
 https://hub.docker.com/r/vzhestkov/zyppmon_sample/
 
+### How to get the whole system up and running with docker-compose:
+Just download **docker-compose.yml** and execute the following from the directory containing this file:
+```
+docker-compose up
+```
 
-How to run all of these containers manually:
+### How to run all of these containers manually:
 1. Create sample data container:
 ```
 docker create --name zyppmon_sample vzhestkov/zyppmon_sample

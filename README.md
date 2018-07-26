@@ -44,8 +44,13 @@ The sample container contains user test with password test inside the MongoDB.
 It creates an archive containing the data required for ZyPP monitor on run with name zyppmon_HOSTNAME_YYYYMMDD_HHMMSS_MD5SECONDHALF.tbz
 
 ## Screenshots
+### Login screen
 ![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/login.png)
+### Main screen
 ![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/main.png)
+### History chart window (system update visualization)
 ![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/chart.png)
+### System compare window
 ![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/compare.png)
+### System analize window (find most matching system)
 ![](https://github.com/vzhestkov/zyppmon/raw/master/screenshots/analize.png)

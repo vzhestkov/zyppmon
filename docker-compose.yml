@@ -1,0 +1,47 @@
+version: '3'
+volumes:
+ mongo-data:
+ zyppmon-systems:
+services:
+ zyppmon_sample:
+  image: 'vzhestkov/zyppmon_sample'
+  container_name: 'zyppmon_sample'
+  volumes:
+   - mongo-data:/data/db
+   - zyppmon-systems:/zyppmon/systems
+  command: 'echo "data container"'
+ zyppmon_mongo:
+  image: 'vzhestkov/mongo'
+  container_name: 'zyppmon_mongo'
+  depends_on:
+   - zyppmon_sample
+  volumes:
+   - mongo-data:/data/db
+ zyppmon:
+  image: 'vzhestkov/zyppmon'
+  container_name: 'zyppmon'
+  hostname: ${HOSTNAME}
+  depends_on:
+   - zyppmon_mongo
+   - zyppmon_sample
+  links:
+   - zyppmon_mongo
+  volumes:
+   - zyppmon-systems:/zyppmon/systems
+   - /var/log/zypp:/var/log/zypp:ro
+   - /var/lib/rpm:/var/lib/rpm:ro
+   - /var/cache/zypp:/var/cache/zypp:ro
+   - /etc/zypp:/etc/zypp:ro
+   - /etc/os-release:/etc/os-release:ro
+  environment:
+   - ZM_MONGODB_ENABLED=1
+   - ZM_MONGODB_HOST=zyppmon_mongo
+   - ZM_AUTH_ORDER=bootstrap mongodb
+   - HOST=${HOST}
+   - HOSTNAME=${HOSTNAME}
+   - HOSTTYPE=${HOSTTYPE}
+   - MACHTYPE=${MACHTYPE}
+   - OSTYPE=${OSTYPE}
+   - CPU=${CPU}
+  ports:
+   - "8843:8843"

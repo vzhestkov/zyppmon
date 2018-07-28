@@ -59,6 +59,19 @@ my @tests = (
 					chmod(0400, $file);
 					${$ao} = sprintf("WARNING!!!: Executable file was changed: %s\n", $file) if defined $ao;
 					return 1;
+				} else {
+					open(my $rpmqld_fh, '-|', 'rpm', '-ql', '--dump', $rpm->{nvra});
+					while ( my $l = <$rpmqld_fh> ) {
+						if ( ($md) =  $l =~ /\A$file\s.*\s(\d+)(\s\w+){6}$/ ) {
+							$md = oct($md);
+							if ( $md & 0111 ) {
+								${$ao} = sprintf("WARNING!!!: Executable file was changed: %s\n", $file) if defined $ao;
+								return 1
+							}
+							last;
+						}
+					}
+					close($rpmqld_fh);
 				}
 			}
 			return 0;
@@ -81,7 +94,7 @@ my @tests = (
 			my ($rpm, $file, $flags, $type, $msg) = @_;
 			$type = '' unless defined($type);
 			return 0 unless $file;
-			return 1 if ($type ne 'c') && $flags =~ /[SM5UG]/;
+			return 1 if ($type ne 'c') && $file !~ /\A\/var\// && $flags =~ /[SM5UG]/;
 			return 0;
 		},
 		list => []},
